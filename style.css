@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    color: #e5e7eb;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    padding: 0;
+    margin: 0;
+    color:white;
+    text-decoration: none;
+}
+
+.top-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+    background-color: #1f2937;
+    color:white;
+}
+
+.left-top-box{
+    color:#F9FAF8;
+}
+
+.top-box-big-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-box-subtext{
+    font-size: 18px;
+    padding-right: 300px;
+}
+
+.header-button{
+    color:white;
+    background-color:#3882F6;
+    border-radius: 5px;
+}
+
+.right-top-box{
+    min-width: 40%;
+}
+
+.info-box{
+    text-align: center;  
+}
+
+.info-text{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.pepper{
+    border: black solid;
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+}
+
+.info-one, .info-two, .info-three, .info-four{
+}
+
+.quote-box{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px 600px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style:italic;
+}
+
+.quoted{
+    font-weight:bold;
+    text-align: end;
+}
+
+.bottom-box{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 50px 500px;
+    padding: 50px;
+}
+
+
+.bottom-button{
+    background-color: #3882F6;
+    color: white;
+    border: white solid;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    padding: 25px;
+    color:white;
+    background-color:#1f2937;
+    justify-content: center;
+    align-items: center;
+}
